@@ -1,0 +1,85 @@
+/*Estilos para o corpo da página */
+body{
+    font-family:Arial, sans-serif; 
+    background-color: #f4f4f4;
+    margin:0 ;
+    padding: 0;
+}
+
+/*Estilos para o cabeçalho */
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align:center;
+    padding:1em;  
+}
+
+header img{
+    border-radius: 100%;
+}
+
+/*Estilos para o rodapé */
+
+footer{
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+section h2{
+    text-align: center;
+}
+section p{
+    text-align: justify;
+}
+
+/*Estilos para a section */
+section{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+section img{
+    text-align: center;
+    height: 100px;
+}
+
+/*Estilo para NAV(Menu)*/
+nav ul{
+    list-style-type: none;
+    background-color: #827e7e;
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    text-align: center;
+    display: inline;
+    flex:1
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+
+section {
+    text-align: center;
+}
+
+/* Imagens*/
+section img{
+    display: inline-block;
+    text-align: center;
+    margin: 2em;
+
+}
